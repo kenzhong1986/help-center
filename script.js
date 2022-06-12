@@ -155,6 +155,10 @@ var runSearch = function () {
     searchResults.innerHTML = resultsHtml;
 };
 var ready = function () {
+    var askBtn = document.getElementById('chat-icon');
+    askBtn.click = function(){
+    window.location.href = 'https://www.baidu.com'
+    }
     var search = document.getElementById(searchIdName);
     var searchbar = document.getElementById(searchBarName);
     var elms = document.getElementsByClassName(contentBoxClassName);
