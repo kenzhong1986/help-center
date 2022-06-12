@@ -156,7 +156,8 @@ var runSearch = function () {
 };
 var ready = function () {
     var askBtn = document.getElementById('chat-icon');
-    askBtn.addEventListener("click", function(){
+    askBtn.addEventListener('click, function(e){
+     alert(123)
      window.location.href = 'https://www.baidu.com'
      });
     var search = document.getElementById(searchIdName);
